@@ -228,7 +228,7 @@ while true; do
     fi
 
     if [[ $DE = "WM" ]]; then
-      feh --bg-tile $saveDir$picName
+      feh --bg-fill $saveDir$picName
     fi
 
     if [ "$exitAfterRunning" = true ] ; then
